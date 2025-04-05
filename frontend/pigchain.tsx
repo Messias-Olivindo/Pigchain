@@ -2,9 +2,11 @@
 
 import { useState } from "react"
 import { motion } from "framer-motion"
+import { useRouter } from "next/navigation"
 
 export default function PigChain() {
   const [hover, setHover] = useState(false)
+  const router = useRouter()
 
   // Simple animation for the "PRESS START" text
   const startAnimation = {
@@ -14,6 +16,10 @@ export default function PigChain() {
       repeat: Number.POSITIVE_INFINITY,
       ease: "easeInOut",
     },
+  }
+
+  const handleStartClick = () => {
+    router.push("/login")
   }
 
   return (
@@ -74,6 +80,7 @@ export default function PigChain() {
         onMouseLeave={() => setHover(false)}
         animate={hover ? startAnimation : {}}
         whileTap={{ scale: 0.95 }}
+        onClick={handleStartClick}
       >
         <div className="text-center">
           <div
