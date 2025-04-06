@@ -1,12 +1,13 @@
 from fastapi import FastAPI
-from service import LNbits
+from backend.services.service import LNbits
+
 
 app = FastAPI()
 client = LNbits("localhost:3007")  # ou o IP do LNbits local
 
 @app.get("/")
 def root():
-    return {"message": "Pigchain API funcionando!"}
+    return {"message": "Pigchain API working!"}
 
 @app.post("/create")
 def create_wallets():

@@ -5,7 +5,15 @@
 #   Happy hacking!
 #
 
-from service import LNbits
+from backend.services.service import LNbits
+from fastapi import FastAPI
+
+app = FastAPI()
+
+@app.get("/")
+def root():
+    return {"message": "Pigchain is ON!"}
+
 
 
 def main() -> None:

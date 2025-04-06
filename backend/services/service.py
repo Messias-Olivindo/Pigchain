@@ -7,7 +7,8 @@
 
 import requests
 
-from models import Account, Wallet, WalletInfo, Invoice
+from backend.client.models import Account, Wallet, WalletInfo, Invoice
+
 
 
 class LNbits:
