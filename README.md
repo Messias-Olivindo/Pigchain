@@ -37,7 +37,7 @@ We have ambitious goals ahead:
 
 *Data-Driven Architecture:*
 - Prioritize mobile-first design (since 76.7% use social media for learning)
-- Implemente "confidence ramping" (addressing 46.6% crypto anxiety):
+- Implement "confidence ramping" (addressing 46.6% crypto anxiety):
   - Level 1: Custodial wallet tutorials
   - Level 5: Non-custodial DeFi interactions
 - Tokenomics modeled on survey engagement:
@@ -78,7 +78,7 @@ What we did accomplish:
 Though we couldn't fully realize our decentralized application prototype, this experience gave us something equally valuable - a clear roadmap of the Web3 competencies we need to develop and the determination to keep building.
 
 ## Accomplishments we're proud of 🫡
-✅ *Proved Product-Market Fit*: 56.3% immediate interest (39/63)  
+✅ *Proved Product-Market Fit*: 56.3% immediate interest  
 ✅ *Solved Key Pain Points*:  We will reduce "crypto fear" 
 ✅ *Innovative Engagement*: 76.7% social media learners → Built shareable NFT progress cards 
 
